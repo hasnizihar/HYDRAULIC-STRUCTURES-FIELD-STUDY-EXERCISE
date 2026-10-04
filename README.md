@@ -23,15 +23,15 @@
 
 This repository hosts the complete academic coursework submission, field photographic surveys, engineering sketches, hydraulic formulations, and verified final report deliverables for **CE4023: Hydraulic Design (Coursework 3)**.
 
-The study investigates two contrasting freshwater hydraulic structures situated in the Batticaloa District, Eastern Province, Sri Lanka, separated by a straight-line distance of **15.52 km** (satisfying the course requirement of $\ge 3.0\text{ km}$):
+The study investigates two contrasting freshwater hydraulic structures situated in the Batticaloa District, Eastern Province, Sri Lanka, separated by a straight-line distance of **15.52 km** (satisfying the course requirement of ≥ 3.0 km):
 
 1. **Site A (Less-Common Hydraulic Structure):**  
-   **Unnichchai Dam and Reservoir Headworks** ($7^\circ 37' 05.2''\text{ N}, 81^\circ 32' 55.4''\text{ E}$)  
-   A major multi-purpose headworks constructed between 1915 and 1919 across the Magalavattuwan Aru (River Basin 59). Features a dual spillway arrangement comprising an extensive **curved masonry ogee overflow weir** ($L_{\text{eff}} = 120.0\text{ m}$), a **3-bay radial gated spillway** ($3 \times 6.10\text{ m} \times 3.35\text{ m}$), a stepped chute, and a standardized **USBR Type III stilling basin** with staggered trapezoidal baffle piers and a dentated end sill, discharging onto natural bedrock benches.
+   **Unnichchai Dam and Reservoir Headworks** (7°37'05.2"N, 81°32'55.4"E)  
+   A major multi-purpose headworks constructed between 1915 and 1919 across the Magalavattuwan Aru (River Basin 59). Features a dual spillway arrangement comprising an extensive **curved masonry ogee overflow weir** (crest length L = 120.0 m), a **3-bay radial gated spillway** (3 bays of 6.10 m × 3.35 m), a stepped chute, and a standardized **USBR Type III stilling basin** with staggered trapezoidal baffle piers and a dentated end sill, discharging onto natural bedrock benches.
 
 2. **Site B (Very Common Hydraulic Structure):**  
-   **Double Swiss Gate Bifurcation Structure** ($7^\circ 32' 30.8''\text{ N}, 81^\circ 40' 03.9''\text{ E}$)  
-   Located at 40th Village / Mandur in the Porativu Pattu Agrarian Division, fed by the primary branch canal from Pulukunawa Reservoir. Features an L-shaped reinforced concrete distribution chamber with **twin vertical Swiss slide gates** ($w = 1.85\text{ m}$ per bay, $H = 2.80\text{ m}$, $h_{\text{gate}} = 1.35\text{ m}$) operated via rising Acme-threaded screw spindles with top handwheels, discharging into downstream trapezoidal unlined earthen canals.
+   **Double Swiss Gate Bifurcation Structure** (7°32'30.8"N, 81°40'03.9"E)  
+   Located at 40th Village / Mandur in the Porativu Pattu Agrarian Division, fed by the primary branch canal from Pulukunawa Reservoir. Features an L-shaped reinforced concrete distribution chamber with **twin vertical Swiss slide gates** (w = 1.85 m per bay, H = 2.80 m, h_gate = 1.35 m) operated via rising Acme-threaded screw spindles with top handwheels, discharging into downstream trapezoidal unlined earthen canals.
 
 ---
 
@@ -92,28 +92,39 @@ The study investigates two contrasting freshwater hydraulic structures situated 
 ## Summary of Hydraulic Results
 
 ### Site A: Unnichchai Dam Headworks
+
 - **Curved Ogee Weir Discharge Capacity:**  
-  $$Q = C_d \cdot L_e \cdot H_e^{3/2} = 2.21 \times 117.36 \times (1.32)^{3/2} = 391.3\text{ m}^3/\text{s}$$  
-  *(At design surcharge head $H_e = 1.32\text{ m}$, MWL = 31.50 m MSL, freeboard = 1.50 m)*
+  ```
+  Q = Cd × Le × He^(3/2) = 2.21 × 117.36 × (1.32)^1.5 = 391.3 m³/s
+  ```
+  *(Evaluated at design surcharge head He = 1.32 m, MWL = 31.50 m MSL, safety freeboard = 1.50 m)*
+
 - **USBR Type III Stilling Basin Hydraulic Jump:**  
-  - Inflow Velocity & Depth: $V_1 = 14.59\text{ m/s}$, $y_1 = 0.318\text{ m}$ ($q = 4.64\text{ m}^2/\text{s}$)
-  - Inflow Froude Number: $Fr_1 = 8.20$ (Strong, well-stabilized hydraulic jump)
-  - Subcritical Sequent Depth: $y_2 = 3.53\text{ m}$
-  - Energy Dissipation: Head loss $\Delta E = 7.38\text{ m}$; **Kinetic energy dissipation efficiency $\eta = 67.1\%$**
-  - Tailwater Bedrock Check: Normal depth $y_n = 2.14\text{ m}$, velocity $V_{\text{tw}} = 2.68\text{ m/s}$ (safe against non-erodible granite bedrock)
+  - Inflow Velocity & Depth: **V₁ = 14.59 m/s**, **y₁ = 0.318 m** (unit discharge q = 4.64 m²/s)
+  - Inflow Froude Number: **Fr₁ = 8.20** (Strong, well-stabilized hydraulic jump)
+  - Subcritical Sequent Depth: **y₂ = 3.53 m**
+  - Energy Dissipation: Head loss **ΔE = 7.38 m**; **Kinetic energy dissipation efficiency η = 67.1%**
+  - Tailwater Bedrock Check: Normal depth **yn = 2.14 m**, velocity **V_tw = 2.68 m/s** (safe against non-erodible granite bedrock)
+
+---
 
 ### Site B: Double Swiss Gate Bifurcation
+
 - **Primary Open-Channel Hydraulic Analysis (Manning's Equation):**  
-  $$Q = \frac{1}{n} A R^{2/3} S_0^{1/2}$$  
-  - Baseline Parameters *(Estimated/Assumed Engineering Inputs)*: Bottom width $b = 3.00\text{ m}$, side slope $z = 1.25\text{H:1V}$, total bank height $H_{\text{bank}} = 1.70\text{ m}$, Manning roughness $n = 0.030$, longitudinal bed slope $S_0 = 0.0008$ ($1\text{ in }1,250$).
-  - Representative Full-Supply Operating Capacity ($y = 1.10\text{ m}$):  
-    **$Q = 3.71\text{ m}^3/\text{s}$**, Mean velocity **$V = 0.77\text{ m/s}$**, Subcritical Froude number **$Fr = 0.27$**, Available safety freeboard **$F_b = 0.60\text{ m}$**.
-  - Operational Bounds: Low-supply delivery $Q = 1.26\text{ m}^3/\text{s}$ ($y = 0.60\text{ m}$); extreme theoretical bankfull limit $Q = 8.39\text{ m}^3/\text{s}$ ($y = 1.70\text{ m}$, $F_b = 0.00\text{ m}$).
-  - Sensitivity Ranges: $Q = 2.62\text{ to }4.90\text{ m}^3/\text{s}$ across bed slope variations ($S_0 = 0.0004 - 0.0014$); $Q = 3.18\text{ to }4.12\text{ m}^3/\text{s}$ across roughness variations ($n = 0.027 - 0.035$).
+  ```
+  Q = (1/n) × A × R^(2/3) × S0^(1/2)
+  Q = (1 / 0.030) × 4.8125 × 0.8164 × 0.028284 = 3.71 m³/s
+  ```
+  - **Baseline Parameters** *(Estimated/Assumed Engineering Inputs)*: Bottom width b = 3.00 m, side slope z = 1.25H:1V, bank height H_bank = 1.70 m, Manning roughness n = 0.030, longitudinal bed slope S0 = 0.0008 (1 in 1,250).
+  - **Representative Full-Supply Operating Capacity (y = 1.10 m):**  
+    **Q = 3.71 m³/s**, Mean velocity **V = 0.77 m/s**, Subcritical Froude number **Fr = 0.27**, Safety freeboard **Fb = 0.60 m**.
+  - **Operational Bounds:** Low-supply delivery **Q = 1.26 m³/s** (y = 0.60 m); extreme theoretical bankfull limit **Q = 8.39 m³/s** (y = 1.70 m, Fb = 0.00 m).
+  - **Sensitivity Ranges:** **Q = 2.62 to 4.90 m³/s** across slope variations (S0 = 0.0004 to 0.0014); **Q = 3.18 to 4.12 m³/s** across roughness variations (n = 0.027 to 0.035).
+
 - **Auxiliary Gate-to-Channel Flow Cross-Check:**  
-  - Clear Gate Opening Area: $A_{\text{gate}} = 2 \times (1.85\text{ m} \times 1.35\text{ m}) = 4.995\text{ m}^2$ *(Measured from Sketch B.1)*
-  - Gate Velocity: $V_{\text{gate}} = 0.74\text{ m/s} \approx V_{\text{canal}} = 0.77\text{ m/s}$
-  - Transition Head Loss: $\Delta h = V^2/(2g) = 0.028\text{ m}$ ($2.8\text{ cm}$)
+  - Clear Gate Opening Area: **A_gate = 2 × (1.85 m × 1.35 m) = 4.995 m²** *(Measured from Sketch B.1)*
+  - Gate Flow Velocity: **V_gate = 0.74 m/s ≈ V_canal = 0.77 m/s**
+  - Transition Head Loss: **Δh = V²/(2g) = 0.028 m (2.8 cm)**
   - Verification: Sluice gate aperture provides non-throttling hydraulic transition for primary Manning channel conveyance.
 
 ---
@@ -121,11 +132,11 @@ The study investigates two contrasting freshwater hydraulic structures situated 
 ## Document & Report Formatting Specifications
 
 The final report has been prepared and verified in accordance with the exact page setup guidelines:
-- **Paper:** A4 ($21.0\text{ cm} \times 29.7\text{ cm}$), Portrait orientation
-- **Margins:** Top: $1.0\text{ cm}$, Bottom: $1.0\text{ cm}$, Right: $1.0\text{ cm}$, Left: $2.5\text{ cm}$
-- **Page Border:** Black thin standard Box border (`w:sz="6"`), aligned with text margins (`w:offsetFrom="text"`)
-- **Header / Footer Distance:** Compact $0.5\text{ cm}$ (zero margin or border collision)
-- **Typography:** 100% Times New Roman, Body $12\text{ pt}$, Headings $13-17\text{ pt}$ bold, $1.5$ line spacing, justified alignment
+- **Paper:** A4 (21.0 cm × 29.7 cm), Portrait orientation
+- **Margins:** Top: 1.0 cm, Bottom: 1.0 cm, Right: 1.0 cm, Left: 2.5 cm
+- **Page Border:** Black thin standard Box border (0.75 pt), aligned with text margins
+- **Header / Footer Distance:** Compact 0.5 cm (zero margin or border collision)
+- **Typography:** 100% Times New Roman, Body 12 pt, Headings 13–17 pt bold, 1.5 line spacing, justified alignment
 - **Color Scheme:** Zero coloured text (strictly black text throughout); light grey header cell shading for tables
 - **Page Numbers:** Bottom right ("Page X of 40")
 - **Layout Validation:** 40 pages total, zero table overflow, all figures centered and captioned, synchronized Table of Contents.
