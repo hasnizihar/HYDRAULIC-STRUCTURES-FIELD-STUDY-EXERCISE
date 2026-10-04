@@ -1,0 +1,100 @@
+================================================================================
+CE4023 HYDRAULIC DESIGN: HYDRAULIC STRUCTURES FIELD STUDY EXERCISE (LO1)
+FINAL ASSIGNMENT COMPLIANCE & QUALITY ASSURANCE CHECKLIST
+Candidate Name: Zihar.KRH | Registration No: 230738B
+Department of Civil Engineering, University of Moratuwa, Sri Lanka
+Submission Date: 04 October 2026
+================================================================================
+
+Requirement Matrix & Compliance Audit:
+--------------------------------------------------------------------------------
+1. Two distinct locations inspected:
+   STATUS: PASS (COMPLIANT)
+   Evidence: Site A (Unnichchai Dam Headworks, Manmunai West) and Site B (Double Swiss Gate Bifurcation, 40th Village / Mandur, Porativu Pattu).
+
+2. Minimum physical separation of at least 3.0 km:
+   STATUS: PASS (COMPLIANT)
+   Evidence: Straight-line distance d = 15.52 km (Haversine formula on WGS84 ellipsoid). Well exceeds the 3.0 km threshold.
+
+3. Association with freshwater:
+   STATUS: PASS (COMPLIANT)
+   Evidence: Both systems operate purely on freshwater irrigation and municipal storage networks (Magalavattuwan Aru and Pulukunawa canal system).
+
+4. One very common hydraulic structure:
+   STATUS: PASS (COMPLIANT)
+   Evidence: Site B represents a standard L-shaped double Swiss slide gate bifurcation/turnout structure ubiquitous across Sri Lanka irrigation networks.
+
+5. One less-common hydraulic structure:
+   STATUS: PASS (COMPLIANT)
+   Evidence: Site A represents a less-common headworks configuration featuring an extensive curved ogee weir on a rock saddle alongside a 3-bay radial gated spillway and a USBR Type III baffle block stilling basin.
+
+6. Photographic documentation of overall structure and components:
+   STATUS: PASS (COMPLIANT)
+   Evidence: 21 photographs for Site A and 9 photographs for Site B detailing inlets, cutwaters, crests, chutes, baffle blocks, stilling basins, gate leaves, spindles, handwheels, riprap, and downstream channels.
+
+7. Dimensioned engineering sketches with approximate dimensions:
+   STATUS: PASS (COMPLIANT)
+   Evidence: Master 3D axonometric engineering sketch (Sketch B.1) with measured gate clear widths (1.85 m), headwall heights (2.80 m), and sill heights (1.35 m and 1.50 m). Downstream earthen canal geometry (b = 3.00 m, z = 1.25, H_bank = 1.70 m) and longitudinal slope (S_0 = 0.0008) are explicitly designated as estimated/assumed engineering inputs based on photographic scaling and regional DEM data rather than measured field survey data.
+
+8. Proof of physical visit:
+   STATUS: PASS (COMPLIANT)
+   Evidence: Candidate Zihar.KRH clearly visible alongside the structure and recognizable surrounding features in Figure 3.1 & Figure 3.2 (Site A) and Figure 4.5 (Site B).
+
+9. Visit occurred after lecturer's specified date threshold:
+   STATUS: PASS (COMPLIANT)
+   Evidence: Physical visits performed on 03 October 2026 (Site B at 09:30 AM, Site A at 12:00 PM), meeting the prescribed date threshold.
+
+10. Precise geographic coordinates:
+    STATUS: PASS (COMPLIANT)
+    Evidence: Site A (7°37'05.2"N, 81°32'55.4"E), Site B (7°32'30.8"N, 81°40'03.9"E).
+
+11. Topographic / Google Maps extracts (approx. 1:50,000):
+    STATUS: PASS (COMPLIANT)
+    Evidence: National Topographic Series Sheet J/10 extracts and high-resolution satellite mapping included in report.
+
+12. Hydraulic engineering purpose described:
+    STATUS: PASS (COMPLIANT)
+    Evidence: Multipurpose irrigation, drinking water abstraction (27,000 m³/day), and flood routing for Site A; proportional flow division and turnout regulation for Site B.
+
+13. Structural safety assessment from hydraulics perspective:
+    STATUS: PASS (COMPLIANT)
+    Evidence: Detailed audits of concrete integrity, gate spindle lubrication, masonry wing walls, wave-breaking riprap, and cavitation resistance.
+
+14. Environmental sustainability assessment:
+    STATUS: PASS (COMPLIANT)
+    Evidence: Groundwater recharge, saline intrusion suppression, downstream bedrock scour protection, and ecological habitat conservation.
+
+15. Estimated safe quantity / discharge of water (Q):
+    STATUS: PASS (COMPLIANT)
+    Evidence:
+    - Site A: Curved ogee weir design discharge Q = 391.3 m³/s (Total headworks flood capacity ~700 m³/s).
+    - Site B: Downstream branch canal representative conveyance capacity Q = 3.71 m³/s evaluated via primary Manning open-channel conveyance analysis (bounded by sensitivity range 2.62 to 4.90 m³/s; bankfull limit 8.39 m³/s). Auxiliary gate-opening calculation serves strictly as a non-constricting flow cross-check.
+
+16. Estimated hydraulic head (H):
+    STATUS: PASS (COMPLIANT)
+    Evidence:
+    - Site A: Structural head H_dam = 10.06 m; Surcharge design head H_design = 1.32 m; Chute drop ΔZ = 9.68 m.
+    - Site B: Operating head loss across gates ΔH ≈ 0.05 to 0.15 m; Design water depth y = 1.10 m (Freeboard = 0.60 m).
+
+17. Engineering justifications provided:
+    STATUS: PASS (COMPLIANT)
+    Evidence: Full mathematical derivations with variable definitions, units, Froude numbers, Bélanger jump equations, and Manning roughness selections.
+
+18. Comparison with literature / internet sources:
+    STATUS: PASS (COMPLIANT)
+    Evidence: Rigorous comparative benchmarking against USBR Design of Small Dams (1987) / Rajangana Dam for Site A, and FAO Irrigation Paper No. 26/2 for Site B.
+
+19. Harvard referencing applied:
+    STATUS: PASS (COMPLIANT)
+    Evidence: Complete reference list formatted in Harvard style citing primary engineering textbooks, statutory reports, and standard codes.
+
+20. Village Reservoir / Tank Assessment Module:
+    STATUS: PASS (COMPLIANT)
+    Evidence: Full Chapter 5 dedicated to Unnichchai Tank storage zones (67.87 MCM gross), bund stability, freeboard, sluices, and NWSDB abstraction.
+
+21. Document formatting standards:
+    STATUS: PASS (COMPLIANT)
+    Evidence: Times New Roman, 12pt body, 1.5 line spacing, black text throughout (zero colored body text), professional tables fitting margins, centered captioned figures, and margin-aligned page border.
+
+OVERALL AUDIT VERDICT: FULL TECHNICAL COMPLIANCE WITH UNIVERSITY OF MORATUWA CE4023 BRIEF (NOTING DOCUMENTED ENGINEERING ESTIMATES AND ASSUMPTIONS).
+================================================================================

@@ -1,0 +1,374 @@
+=== PAGE 1 ===
+Department of Civil Engineering                                           University of Moratuwa 
+ 
+ 
+B. Sc. Engineering, Semester V, CE4023 – Hydraulic Design                                           Page 1 of 9 
+ 
+Module - CE4023  HYDRAULIC DESIGN 
+ 
+ 
+ 
+  
+Assignment Field Exercise on Hydraulic Structures (LO1) Marks 10 % 
+ Students 
+Response  
+Learning 
+Outcomes of 
+the Practical 
+• Evaluate the suitability of hydraulic structures for intended uses/ 
+applications. Yes/No 
+• Determine key hydro-meteorological parameters required for hydrological 
+designs. Yes/No 
+• Assess the reservoir capacity, yield, and spillway capacity. Yes/No 
+• Design hydraulic structures by considering hydrologic, hydraulic, 
+economic, and environmental factors. Yes/No 
+Programme 
+Outcomes 
+PO1: Apply knowledge of mathematics, basic sciences and engineering fundamentals to solve 
+complex engineering problems  
+H 
+PO2: Identify, formulate, research literature, and analyze complex engineering problems to arrive 
+at valid conclusions.  M 
+PO3: Design solutions to complex engineering problems; involving systems, components or 
+processes that meet specified needs, including conflicting constraints.  
+H 
+PO4: Conduct investigations of complex engineering problems using research based knowledge 
+and research methods (including experimental design, analysis & interpretation of data and 
+synthesis of information)  
+H 
+PO5: Create, select and apply appropriate techniques, resources, and modern engineering and IT 
+tools to complex engineering activities  M 
+PO6: Assess societal, health, safety, legal, cultural and environmental issues related to 
+professional engineering solutions  
+M 
+PO7: Demonstrate broad knowledge of sustainable development concepts and practices required 
+for dealing with contemporary issues related to professional engineering practice.  
+M 
+PO8: Demonstrate broad knowledge of ethical responsibilities and professional standards   
+PO9: Demonstrate ability to function effectively as an individual and in multidisciplinary and 
+multi-cultural teams, with the capacity to be a leader or manager as well as an effective team 
+member.  
+ 
+PO10: Communicate effectively on complex engineering activities with the engineering 
+community and with society at large, such as being able to comprehend and write effective reports 
+and design documentation, make effective presentations, and give and rece ive clear instructions.  
+M 
+PO11: Demonstrate broad knowledge of management and business practices, including financial 
+management, risk and change management.  
+L 
+PO12: Engage in independent and lifelong learning in the broad context of technological change.  M 
+H – High         M – Medium         L– Low 
+Lecturer Prof. R. L. H. L. Rajapakse, Dr. H. G. L. N. Gunawardhana 
+ 
+Student Name:  
+Registration Number:  
+Date of Assignment:  Date Due:  
+Initial Submission Date:  Re Submission 
+Date:  
+
+=== PAGE 2 ===
+Department of Civil Engineering                                           University of Moratuwa 
+ 
+ 
+B. Sc. Engineering, Semester V, CE4023 – Hydraulic Design                                           Page 2 of 9 
+ 
+Important 
+1. Please note that plagiarism is treated as a serious offence and therefore the work you produce 
+must be individual and original.  
+2. All sources of information must be referenced using “Harvard Referencing ” where a 
+reference list / Bibliography should be included at the end of the assignment. (You may refer 
+the information given in http://libweb.anglia.ac.uk/referencing/harvard.htm) 
+3. Please note that the submission date given for the assignment (14 days after the date of 
+performance for the laboratory session) is the final date that you can submit the assignment. If 
+the given submission date is a public holiday, redefined submission deadline will be at 1300 hr 
+of the immediate following working day. Late submissions will be graded lower. 
+4. Assignments returned to students for corrections must be re-submitted within 10 days.  
+5. Failure to re-submit the previously marked assignment with the re-submitted assignment will 
+mean that results cannot be released for the respective unit. 
+ 
+ 
+Plagiarism 
+ 
+Although research and discussion form an essential part of the assignment, deliberate copying of 
+the work of others or unacknowledged copying from printed or electronic sources is NOT permitted. 
+Disciplinary actions will be taken against those who are found guilty of plagiarism. Signing of this 
+sheet is required to indicate your compliance with the above regulations. 
+ 
+Student’s Signature: ………………………………..                Date: .………………… 
+ 
+Student’s Comments (Prior to the submission) if any: 
+………………………………………………………………………………………………….. 
+…………………………………………………………………………………………………...…
+……………………………………………………………………………………………….………
+………………………………………………………………………………………….. 
+Student’s feedback (After the submission) if any: 
+………………………………………………………………………………………………….. 
+…………………………………………………………………………………………………..…
+………………………………………………………………………………………………..……
+……………………………………………………………………………………………...………
+………………………………………………………………………………………….……………
+…………………………………………………………………………………….. 
+  
+
+=== PAGE 3 ===
+Department of Civil Engineering                                           University of Moratuwa 
+ 
+ 
+B. Sc. Engineering, Semester V, CE4023 – Hydraulic Design                                           Page 3 of 9 
+ 
+Identification of general hazards associated with the practical 
+ 
+Chemicals/Substances ☐ Acutely  toxic   chemicals Biohazards 
+☐ Compressed Gases - Flammable        ☐ Carcinogens ☐ Animal Infection Studies 
+☐ Compressed Gases  - Oxidizing ☐ Nanomaterials ☐ Large Scale Culture 
+☐ Compressed Gases  - Toxic ☐ Reproductive Toxins ☐ Risk Group – 2 Pathogens 
+☐ Compressed Gases - Inert ☐ Simple Asphyxiant ☐ Risk Group – 3 Pathogens 
+☐ Cryogenic materials ☐ Corrosive Liquid ☐ Plant Pathogens 
+☐ Organic peroxides ☐ DEA/Controlled Substances ☐ Biological Toxins  
+☐ Peroxide Formers ☐ Specific Organ Toxicity ☐ Human, Blood, Body Fluids 
+☐ Self-reactive substances ☐ Explosives ☐ Cell Culture 
+☐ Water-reactive substances ☐ Flammable Liquids ☐ Viruses 
+☐ Pyrophorics ☐ Oxidizers/reducing agents ☐Transgenic  Plants or Animals 
+☐ Explosion hazard ☐ Hand/power tools ☐ Unattended Reactions 
+☐ Exothermic, with potential ☐ Moving Equipment or parts ☐ Respiratory Hazard 
+     for  fire  or excessive heat ☐ Electrical hazards ☐  Vacuum/Pressure Systems  
+☐ Acid Baths ☐ Noise > 85 dBa ☐ Refrigerators and Freezers  
+☐ Hazardous reaction or products      ☐ Hot surfaces ☐ Stirring and Mixing devices 
+☐ Generation of air contaminants      ☐ Ergonomic Hazard ☐ Laboratory Microwave ovens 
+(e.g. gases, aerosols, particulates)     ☐ Needles/Sharps ☐ Slip, trip, falls 
+☐ Heating chemicals ☐ Drying Oven/Furnace ☐Repetitive Motion/vibrations 
+☐ Large volumes ☐ Centrifuge 
+☐ Chemical transferring ☐ Working alone/ Afterhours 
+☐ Foul  Weather ☐ Vector-borne or other endemic disease    ☐ Lifting/carrying 
+☐ Temperature Extremes ☐ Hygiene/water or food-borne  ☐ Strenuous physical activity  
+☐ Darkness/low light  illness (e.g. long days, high stress, etc.) 
+☐ Altitude ☐ Falling objects ☐ Driving/Operating a Vehicle 
+☐ Smoke/dust/mist ☐ Boating/swimming/water hazards (e.g. Tractor, OSU or  personal) 
+☐ Wild Animals/insects ☐Limited Communication ☐ Uneven Surfaces 
+☐ Plants/Allergens ☐ Remote area/limited medical services ☐ Heights 
+Shop Laser Radiation 
+☐ Aerial Lift ☐ Class IIIb Laser ☐ X-ray Machine 
+☐ Air Compressor ☐ Class IV Laser ☐ Magnetic Field (e.g. NMR, MRI) 
+☐ Crane ☐ Radioactive Materials 
+☐ Forklift ☐ Unsealed  Source    Radionuclides 
+☐ Hot Work ☐ Sealed  Source  Radionuclides 
+☐ Used/New Oil ☐ Ultraviolet  Light/Infared  Light 
+Required Laboratory PPE/Safety Supplies 
+☐ Appropriate  clothing (long pants, closed-toed shoes, etc) 
+☐ Gloves; indicate type:   
+☐ Safety glasses 
+☐ Safety goggles 
+☐ Hearing protection 
+☐ Face shield and goggles 
+☐ Hard hat 
+☐ Lab coat 
+☐ Flame-resistant lab coat 
+ 
+☐ Fire extinguisher 
+☐ Eyewash/safety shower 
+☐ First aid kit 
+☐ Spill kit 
+☐ Specialized medical supplies (e.g., 
+calcium gluconate for hydrofluoric acid) 
+☐ Others (list):………………………………. 
+Hazardous Chemicals, Substances, Biohazards 
+Hazardous Processes or Equipment 
+Field Hazards 
+Shop/Laser/Radiation 
+
+=== PAGE 4 ===
+Department of Civil Engineering                                           University of Moratuwa 
+ 
+ 
+B. Sc. Engineering, Semester V, CE4023 – Hydraulic Design                                           Page 4 of 9 
+ 
+Risk Assessment Tool 
+Risk Matrix Consequence/Severity 
+Low Medium High 
+Likelihood/ 
+Probability 
+High (almost certain) Medium High High 
+Med (likely/possible) Low/Medium Medium High 
+Low (rare) Low Low Medium 
+The following table defines what a low, medium and high severity risk is based on risk to people, 
+environment, operations, and reputation. Use this table to assist with the Risk Matrix above. 
+Consequence/ Impact 
+  People Environment Operations Reputation 
+ 
+ 
+ 
+ 
+ 
+Severity 
+Low 
+No safety or health hazards 
+present, first aid injury, short-
+term exposure to mild 
+health effect/field accidents. 
+Minor weather or field / 
+Slight effect. 
+Insignificant or minimal impact on 
+operations. 
+Lab/ 
+Department/ 
+level attention. 
+Medium 
+Medical treatment injury, 
+chronic health effects, 
+time-loss <7 days, 
+moderate health effect. 
+Controlled 
+environmental release, 
+minor and/or localized  
+effects. 
+Could delay operations due to minor 
+property damage. 
+Local area 
+attention, 
+University level 
+attention. 
+High 
+Severe health effect, time-
+loss > 7 days, permanent 
+incapacitation or disability 
+of fatality. 
+Some permanent  
+/widespread ecological 
+damage, major effect 
+Significant or long-term effects on the 
+ability to continue operations, results 
+in significant property  damage and 
+financial loss. 
+State, National 
+and 
+International 
+attention. 
+The following table defines what a low, medium and high likelihood/probability is for the Risk Matrix  tool. 
+Likelihood/Probability Explanation 
+Low Nearly unlikely to happen in the near future and no immediate action is needed. 
+Medium Moderately unlikely or likely to occur and actions should be taken to reduce or control the risk. 
+High More than likely to occur or high probability the risk will occur; immediate action plans required. 
+  
+The risk rating for the practical w.r.t. the above assessment tool:  Low 
+Student feedback on laboratory health and safety practices        
+Are satisfactory post -experiment processes adapted? (e.g., waste disposal, material reuse, 
+cleaning equipment, floor/tables, switch off unused equipment, etc.) Yes/No 
+If not, please suggest the post-experimental measures you propose. 
+ 
+ 
+Are you satisfied with the overall occupational safety of the laboratory? (e.g., safety during the 
+experiment, adequate lighting and ventilation, unobstructed exits, availability and easy access 
+to first aid box, fire extinguishers, availability of trained staff in an emergency etc.) 
+Yes/No 
+If not, what additional safety measures do you propose to improve the overall safety of the laboratory and/or 
+the safety during the experiment? 
+ 
+ 
+I am aware of the general health and safety practices adapted in the laboratory and have read and 
+understood the general hazards and risks associated with the practical. 
+ 
+Student’s Signature: ……………………..                                         Date:……………………… 
+
+=== PAGE 5 ===
+Department of Civil Engineering                                           University of Moratuwa 
+ 
+ 
+B. Sc. Engineering, Semester V, CE4023 – Hydraulic Design                                           Page 5 of 9 
+ 
+ 
+ 
+ 
+ 
+Hydraulic Structures Field Study Exercise 
+ 
+CE4023: Hydraulic Design 
+ 
+ 
+ 
+Hydraulic Engineering Laboratory 
+Department of Civil Engineering 
+University Of Moratuwa 
+Sri Lanka 
+
+=== PAGE 6 ===
+Department of Civil Engineering   University of Moratuwa 
+ 
+ 
+B. Sc. Engineering, Semester V CE4023 – Hydraulic Design Page 6 of 9 
+ASSIGNMENT: 
+ 
+Each student needs to visit* at least two locations (at least 3 kilometers apart), where they have 
+closely observed Hydraulic  (water) Structures (at least one each at each location).   One 
+structure should be a very common structure and the other should not.  The structures should 
+deal with freshwater. 
+ 
+For Each Structure: 
+1) Take photographs (digital/clear resolution at postcard size) of the structure: Overall 
+structure and key components related to Hydraulics (Water) and make sketches with 
+approximate dimensions (elevations, plan, 3D view, sections, etc.) 
+2) Proof that you have visited the structure (a photograph with you and the structure and 
+recognizable surrounding features) 
+3) Proof that you have visited the structure after the date mentioned by the lecturer. 
+4) Provide Coordinates of the Structure  
+5) Provide a Google extract of approximately 1:50,000 or a digital 1: 50,000 topo -sheet 
+extract 
+6) Describe the Hydraulic engineering purpose of the structure 
+7) How are the aspects of (i) safety of the structure and (ii) safety of the environment 
+looked after when you observe from the point of view of hydraulics? 
+8) What are the quantity and the head of water that (in your opinion) has been used for the 
+design of the structure? 
+9) Provide justification for your opinion above 
+10) Submit the Hydraulic structure report (both hard copy and digital) 
+11) Download and show a picture of a similar structure from an internet reference and 
+provide the URL with the date and time of visit to that site.  
+*Note: All students are strictly advised to follow and adhere to all health and safety guidelines, 
+especially those related to Dengue/Viral flu /Rat Fever (L eptospirosis), etc., as well as, 
+precautions against slips, trips and falls .  If it is unsafe to visit structure locations physically 
+(due to specific health or other constraints), you are allowed to use secondary data, online 
+resources, etc. (with prior approval and adequate justification) , to complete this assignment  
+(prior approval should be obtained). 
+ 
+-- END OF ASSIGNMENT -- 
+  
+
+=== PAGE 7 ===
+Department of Civil Engineering   University of Moratuwa 
+ 
+ 
+B. Sc. Engineering, Semester V CE4023 – Hydraulic Design Page 7 of 9 
+CE4023 Hydraulic Design - Hydraulic Structures Field Study Exercise 
+- Additional Notes 
+Assignment or the Problem 
+Visit at least two locations (at least 3 kilometers apart), and closely observe Hydraulic (water) 
+Structures (at least one each at each location) which are to be associated with freshwater.  One 
+structure should be a very common structure and the other should not be a common structure 
+type.  Submit a “Hydraulic Struct ure Field Identification” report providing at least the 
+following.   
+Provide a detailed map of the location. Provide the coordinates of each location.  Photographs 
+showing the entire structure and indicating  important components such as inlets, conveyance 
+section, energy dissipater, and outlet.  Describe the type and purpose (hydraulic functionality) 
+of the structures.  Describe how the following aspects are taken care of (i) sustainability of the 
+structure and (ii) sustainability of the surrounding environment  
+With appropriate justifications, make an estimate of the safe limits of the quantity and the head 
+of water for each observed structure.  Compare the observed structures with those of literature 
+(you may use internet sources) and comment on the differences.  
+The report should be submitted both in digital and hardcopy format (digital format preferred). 
+
+=== PAGE 8 ===
+Department of Civil Engineering   University of Moratuwa 
+ 
+ 
+B. Sc. Engineering, Semester V CE4023 – Hydraulic Design Page 8 of 9 
+ 
+
+
+=== PAGE 9 ===
+Department of Civil Engineering   University of Moratuwa 
+ 
+ 
+B. Sc. Engineering, Semester V CE4023 – Hydraulic Design Page 9 of 9 
+ 
+-- END OF NOTE -- 
+ 
+
+

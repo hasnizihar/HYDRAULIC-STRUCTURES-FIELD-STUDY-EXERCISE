@@ -1,0 +1,73 @@
+================================================================================
+SITE A: UNNICHCHAI DAM HEADWORKS — DETAILED HYDRAULIC CALCULATIONS
+Structure: Curved Ogee Overflow Spillway, USBR Type III Stilling Basin & Tailwater
+================================================================================
+
+1. CURVED OGEE SPILLWAY WEIR DISCHARGE
+Formula: Q = C_d * L * H_e^(3/2)
+Inputs:
+  - Effective curved crest length: L = 120.0 m
+  - Discharge coefficient: C_d = 2.15 m^(1/2)/s (USBR / USACE standard)
+  - Full Supply Level (FSL): 30.18 m MSL (99.0 ft MSL)
+  - Maximum Water Level (MWL): 31.50 m MSL (103.35 ft MSL)
+  - Design Surcharge Head: H_e = MWL - FSL = 31.50 - 30.18 = 1.32 m (4.33 ft)
+
+Calculation:
+  H_e^(1.5) = (1.32)^1.5 = 1.5166 m^1.5
+  Q_ogee = 2.15 * 120.0 * 1.5166 = 391.28 m^3/s ≈ 391.3 m^3/s
+
+Supplementary Flood Discharge (3 Radial Gates fully raised under MWL):
+  - 3 bays of 6.10 m clear width (Total gated width B = 18.30 m)
+  - Q_radial ≈ 280 to 320 m^3/s
+  - Total Combined Evacuation Capacity: Q_total ≈ 670 to 710 m^3/s
+
+--------------------------------------------------------------------------------
+2. USBR TYPE III STILLING BASIN ENERGY DISSIPATION & HYDRAULIC JUMP
+Geometry:
+  - Stilling basin floor elevation: 20.50 m MSL
+  - Spillway crest elevation: 30.18 m MSL
+  - Chute drop: ΔZ = 30.18 - 20.50 = 9.68 m
+  - Total Energy Head at Basin Entrance: H_total = 1.32 + 9.68 = 11.00 m
+  - Effective Chute / Stilling Basin Width: W = 85.0 m
+  - Unit Discharge: q = Q_ogee / W = 391.28 / 85.0 = 4.603 m^2/s
+
+Supercritical Entrance State (Toe of Chute):
+  - Energy conservation: H_total = y_1 + q^2 / (2 * g * y_1^2)
+  - Solving numerically:
+    y_1 = 0.318 m
+    v_1 = q / y_1 = 4.603 / 0.318 = 14.48 m/s
+    Froude Number Fr_1 = v_1 / sqrt(g * y_1) = 14.48 / sqrt(9.81 * 0.318) = 8.20
+
+Conjugate / Sequent Depth (Hydraulic Jump):
+  - Bélanger Equation: y_2 = (y_1 / 2) * [sqrt(1 + 8 * Fr_1^2) - 1]
+    y_2 = (0.318 / 2) * [sqrt(1 + 8 * (8.20)^2) - 1]
+    y_2 = 0.159 * [sqrt(1 + 537.92) - 1] = 0.159 * [23.21 - 1] = 3.53 m
+  - Jump Exit Velocity: v_2 = q / y_2 = 4.603 / 3.53 = 1.30 m/s
+  - Jump Exit Froude Number: Fr_2 = v_2 / sqrt(g * y_2) = 1.30 / sqrt(9.81 * 3.53) = 0.22
+
+Energy Dissipation & Head Loss Across Basin:
+  - Specific Energy before jump: E_1 = y_1 + v_1^2 / (2g) = 0.318 + (14.48)^2 / 19.62 = 11.00 m
+  - Specific Energy after jump: E_2 = y_2 + v_2^2 / (2g) = 3.53 + (1.30)^2 / 19.62 = 3.62 m
+  - Head Loss across Baffle Blocks: ΔE = E_1 - E_2 = 11.00 - 3.62 = 7.38 m
+  - Dissipation Efficiency: η = (ΔE / E_1) * 100% = (7.38 / 11.00) * 100% = 67.1%
+
+--------------------------------------------------------------------------------
+3. DOWNSTREAM TAILWATER CHANNEL CONVEYANCE (MAGALAVATTUWAN ARU)
+Method: Manning's Open-Channel Equation
+Inputs:
+  - Channel geometry: Trapezoidal bedrock river channel
+  - Base width: b = 28.0 m
+  - Side slope: z = 1.50 (1.5H:1V)
+  - Manning roughness: n = 0.042 (Ven Te Chow Table 5-6: Irregular natural bedrock)
+  - Longitudinal slope: S_0 = 0.0025 (1 in 400)
+  - Discharged flow: Q = 391.3 m^3/s
+
+Routing Results:
+  - Normal depth: y_tw = 4.25 m
+  - Flow Area: A = 4.25 * [28.0 + 1.5(4.25)] = 146.1 m^2
+  - Wetted Perimeter: P = 28.0 + 2(4.25)*sqrt(1 + 1.5^2) = 43.32 m
+  - Hydraulic Radius: R = 146.1 / 43.32 = 3.37 m
+  - Mean Velocity: V_tw = 391.3 / 146.1 = 2.68 m/s
+  - Non-scouring criterion: Permissible velocity for solid crystalline granite > 4.5 m/s.
+  - Conclusion: Completely stable, non-erosive tailwater conveyance.
+================================================================================

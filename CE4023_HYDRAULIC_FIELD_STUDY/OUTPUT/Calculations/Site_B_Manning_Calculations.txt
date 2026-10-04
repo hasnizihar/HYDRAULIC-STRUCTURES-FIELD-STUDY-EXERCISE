@@ -1,0 +1,83 @@
+================================================================================
+SITE B: DOUBLE SWISS GATE BIFURCATION — DETAILED MANNING CALCULATIONS
+Structure: Downstream Left Branch Delivery Canal (Vammiyadiyuttu Alignment)
+================================================================================
+
+1. FORMULATION & GOVERNING EQUATIONS
+Trapezoidal Channel Geometry:
+  - Cross-sectional Area: A = y * (b + z * y)
+  - Wetted Perimeter: P = b + 2 * y * sqrt(1 + z^2)
+  - Hydraulic Radius: R = A / P
+  - Top Width: T = b + 2 * z * y
+  - Hydraulic Depth: D = A / T
+  - Conveyance Capacity (Manning): Q = (1 / n) * A * R^(2/3) * S_0^(1/2)
+  - Mean Flow Velocity: V = Q / A
+  - Froude Number: Fr = V / sqrt(g * D)
+  - Available Safety Freeboard: F_b = H_bank - y
+
+--------------------------------------------------------------------------------
+2. BASE-CASE CALCULATION
+Inputs:
+  - Bottom width: b = 3.00 m (Photo-estimated)
+  - Side slope: z = 1.25 (1.25H:1V, Photo-estimated / ID standard)
+  - Total bank height: H_bank = 1.70 m (Photo-estimated)
+  - Representative flow depth: y = 1.10 m (Analytical full-supply depth)
+  - Manning roughness: n = 0.030 (Ven Te Chow Table 5-6: Earth bed, grassed banks)
+  - Longitudinal bed slope: S_0 = 0.0008 (1 in 1,250, Engineering analysis assumption)
+
+Step-by-Step Values:
+  - A = 1.10 * [3.00 + 1.25(1.10)] = 4.8125 m^2
+  - P = 3.00 + 2(1.10)*sqrt(1 + 1.25^2) = 6.5217 m
+  - R = 4.8125 / 6.5217 = 0.7379 m
+  - R^(2/3) = (0.7379)^0.6667 = 0.8164 m^(2/3)
+  - S_0^(1/2) = sqrt(0.0008) = 0.028284
+  - Q = (1 / 0.030) * 4.8125 * 0.8164 * 0.028284 = 3.7051 m^3/s ≈ 3.71 m^3/s
+  - V = 3.7051 / 4.8125 = 0.7699 m/s ≈ 0.77 m/s
+  - T = 3.00 + 2(1.25)(1.10) = 5.750 m
+  - D = 4.8125 / 5.750 = 0.8370 m
+  - Fr = 0.770 / sqrt(9.81 * 0.8370) = 0.269 (Tranquil Subcritical Flow)
+  - Freeboard F_b = 1.70 - 1.10 = 0.60 m
+
+--------------------------------------------------------------------------------
+3. DEPTH SCENARIOS
+Scenario 1: Low-Supply Operating Depth (y = 0.60 m)
+  - A = 2.250 m^2, P = 4.921 m, R = 0.457 m
+  - Q = 1.259 m^3/s, V = 0.560 m/s, Freeboard = 1.10 m, Fr = 0.253
+
+Scenario 2: Representative Full-Supply Depth (y = 1.10 m)
+  - A = 4.813 m^2, P = 6.522 m, R = 0.738 m
+  - Q = 3.705 m^3/s, V = 0.770 m/s, Freeboard = 0.60 m, Fr = 0.269
+
+Scenario 3: Maximum Theoretical Bankfull Depth (y = 1.70 m, F_b = 0.00 m)
+  - A = 8.713 m^2, P = 8.443 m, R = 1.032 m
+  - Q = 8.388 m^3/s, V = 0.963 m/s, Freeboard = 0.00 m, Fr = 0.280
+  * Note: 8.39 m^3/s is an upper limiting threshold at zero freeboard, NOT a safe operating discharge.
+
+--------------------------------------------------------------------------------
+4. SENSITIVITY ANALYSES (AT y = 1.10 m)
+Bed Slope Sensitivity (holding b = 3.0 m, z = 1.25, n = 0.030):
+  - Case S1 (S_0 = 0.0004 / 1:2500): Q = 2.620 m^3/s, V = 0.544 m/s, Fr = 0.190
+  - Case S2 (S_0 = 0.0008 / 1:1250): Q = 3.705 m^3/s, V = 0.770 m/s, Fr = 0.269
+  - Case S3 (S_0 = 0.0014 / 1:714):  Q = 4.901 m^3/s, V = 1.018 m/s, Fr = 0.355
+
+Roughness Sensitivity (holding b = 3.0 m, z = 1.25, S_0 = 0.0008):
+  - Clean Earth (n = 0.027): Q = 4.117 m^3/s, V = 0.855 m/s
+  - Base Earth (n = 0.030):  Q = 3.705 m^3/s, V = 0.770 m/s
+  - Weedy Earth (n = 0.035): Q = 3.176 m^3/s, V = 0.660 m/s
+
+Geometric Sensitivity Matrix (Q in m^3/s across b and z):
+  Bottom Width (b) | z = 1.00  | z = 1.25 (Base) | z = 1.50
+  -----------------|-----------|-----------------|---------
+  2.50 m           | 2.959     | 3.192           | 3.412
+  3.00 m (Base)    | 3.472     | 3.705           | 3.925
+  3.50 m           | 3.992     | 4.224           | 4.443
+
+--------------------------------------------------------------------------------
+5. GATE APERTURE CROSS-CHECK
+Twin Swiss Gate Opening Area (from Sketch B.1):
+  - A_gate = 2 * (1.85 m * 1.35 m) = 4.995 m^2
+  - Canal Flow Area at Full Supply: A_canal = 4.813 m^2
+  - Required Velocity through Gates: V_gate = Q_base / A_gate = 3.705 / 4.995 = 0.74 m/s
+  - Corresponding Head Loss: Δh = V_gate^2 / (2g) = (0.74)^2 / 19.62 = 0.028 m (2.8 cm)
+  - Cross-check Conclusion: Gate aperture matches canal prism with negligible constriction loss.
+================================================================================
