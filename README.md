@@ -35,6 +35,60 @@ The study investigates two contrasting freshwater hydraulic structures situated 
 
 ---
 
+## Photographic Evidence & Structural Documentation
+
+### Site A: Unnichchai Dam Headworks (Less-Common Structure)
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="CE4023_HYDRAULIC_FIELD_STUDY/SITE_A%20(uncommon)/photographs/WhatsApp%20Image%202026-10-03%20at%201.29.47%20PM.jpeg" alt="Curved Ogee Spillway Crest" width="100%" />
+      <br><b>Figure 3.1:</b> Curved masonry ogee spillway crest, stepped chute, and right abutment (Candidate visit verification).
+    </td>
+    <td align="center" width="50%">
+      <img src="CE4023_HYDRAULIC_FIELD_STUDY/SITE_A%20(uncommon)/photographs/WhatsApp%20Image%202026-10-03%20at%2010.13.05%20PM.jpeg" alt="Radial Gate Spillway Bay" width="100%" />
+      <br><b>Figure 3.2:</b> 3-bay radial gated spillway showing concrete piers, radial arms, and candidate on the chute slab.
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="CE4023_HYDRAULIC_FIELD_STUDY/SITE_A%20(uncommon)/photographs/WhatsApp%20Image%202026-10-03%20at%2010.13.41%20PM.jpeg" alt="USBR Baffle Piers" width="100%" />
+      <br><b>Figure 3.4:</b> Trapezoidal reinforced concrete baffle blocks on the USBR Type III stilling basin apron.
+    </td>
+    <td align="center" width="50%">
+      <img src="CE4023_HYDRAULIC_FIELD_STUDY/SITE_A%20(uncommon)/photographs/WhatsApp%20Image%202026-10-03%20at%2010.13.24%20PM.jpeg" alt="Downstream Bedrock Formation" width="100%" />
+      <br><b>Figure 3.5:</b> Expansive natural granite bedrock formation immediately downstream of the stilling basin end sill.
+    </td>
+  </tr>
+</table>
+
+### Site B: Double Swiss Gate Bifurcation (Common Structure)
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="CE4023_HYDRAULIC_FIELD_STUDY/SITE_B%20(common)/sketches/kulman-1791092960214.png" alt="Master 3D Axonometric Sketch" width="100%" />
+      <br><b>Sketch B.1:</b> Master dimensioned 3D axonometric engineering sketch showing twin gate bays and headwall geometry.
+    </td>
+    <td align="center" width="50%">
+      <img src="CE4023_HYDRAULIC_FIELD_STUDY/SITE_B%20(common)/photographs/WhatsApp%20Image%202026-10-03%20at%201.21.15%20PM.jpeg" alt="Twin Swiss Slide Gates" width="100%" />
+      <br><b>Figure 4.4:</b> Upstream face of twin vertical Swiss slide gates showing threaded screw spindles and handwheels.
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="CE4023_HYDRAULIC_FIELD_STUDY/SITE_B%20(common)/photographs/WhatsApp%20Image%202026-10-03%20at%201.21.16%20PM.jpeg" alt="Distribution Chamber" width="100%" />
+      <br><b>Figure 4.5:</b> Overview of concrete bifurcation chamber with candidate Zihar.KRH inside (Visit proof).
+    </td>
+    <td align="center" width="50%">
+      <img src="CE4023_HYDRAULIC_FIELD_STUDY/SITE_B%20(common)/photographs/WhatsApp%20Image%202026-10-03%20at%201.21.05%20PM.jpeg" alt="Downstream Earthen Canal" width="100%" />
+      <br><b>Figure 4.3:</b> Downstream delivery canal showing stone riprap apron transitioning into trapezoidal earthen channel.
+    </td>
+  </tr>
+</table>
+
+---
+
 ## Summary of Hydraulic Results
 
 ### Site A: Unnichchai Dam Headworks
@@ -87,6 +141,8 @@ The final report has been prepared and verified in accordance with the exact pag
 │   ├── OUTPUT/
 │   │   ├── CE4023_Hydraulic_Structures_Field_Report.docx  # Final formatted Word document (40 pages)
 │   │   ├── CE4023_Hydraulic_Structures_Field_Report.pdf   # Verified PDF submission copy
+│   │   ├── 230738B_Hydraulic_Structures_Field_Report.docx # Index-named Word document
+│   │   ├── 230738B_Hydraulic_Structures_Field_Report.pdf  # Index-named PDF document
 │   │   ├── Calculations/           # Standalone step-by-step hydraulic calculations
 │   │   │   ├── Site_A_Hydraulic_Calculations.txt
 │   │   │   └── Site_B_Manning_Calculations.txt
